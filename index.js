@@ -1,14 +1,15 @@
 // import a libarary to help create a Component
 import React from 'react';
-import {AppRegistry} from 'react-native';
+import {AppRegistry,View} from 'react-native';
 import  Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 // creat a Component
 const App =() => (
-  <Header/> // Reason of selfclosing tag THis does not have text
+  <View>
+  <Header headertext ={'ablumnsss'} />
+  <AlbumList/>
+  </View>
 );
-
-
-
 
 
 
