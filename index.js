@@ -5,7 +5,7 @@ import  Header from './src/components/header';
 import AlbumList from './src/components/AlbumList';
 // creat a Component
 const App =() => (
-  <View>
+  <View style ={{ flex:1 }}>
   <Header headertext ={'Albums'} />
   <AlbumList/>
   </View>
